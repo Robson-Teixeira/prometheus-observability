@@ -1,2 +1,3 @@
-# prometheus-observability
-Repositório do curso Jornada do Conhecimento de DevOps (Nível Avançado) - Observabilidade: coletando métricas de uma aplicação com Prometheus da plataforma Alura.
+# Observabilidade: coletando métricas de uma aplicação com Prometheus
+
+Repositório do curso [**Observabilidade: coletando métricas de uma aplicação com Prometheus**](https://cursos.alura.com.br/course/observabilidade-prometheus) da plataforma [Alura](https://cursos.alura.com.br/).
