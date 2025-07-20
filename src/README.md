@@ -5,6 +5,7 @@
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - [Maven](https://maven.apache.org/install.html)
 - [Java](https://www.oracle.com/java/technologies/downloads/)
+- [Micrometer](https://micrometer.io/)
 - IDE ([IntelliJ](https://www.jetbrains.com/pt-br/idea/#), [Eclipse](https://eclipseide.org/), etc.)
 
 ## Comandos
