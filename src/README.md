@@ -23,3 +23,6 @@
 ## Iniciando a aplicação
 - Add VM Options: -Dspring.profiles.active=prod
 - Add Enviroment Variables: application-prod.properties
+
+## Definições
+- `scrape_interval` é o intervalo de tempo entre cada consulta do Prometheus ao item monitorado
