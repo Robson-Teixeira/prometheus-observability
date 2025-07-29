@@ -17,6 +17,7 @@
 - `docker --version` para verificar a versão do Docker instalada
 - `docker-compose --version` para verificar a versão do Docker Compose instalada
 - `docker-compose up` para iniciar os containers do Docker (executar no diretório em que se encontra o arquivo `docker-compose.yml`)
+  - `docker-compose up -d` para iniciar os containers do Docker em modoDetached (modo não bloqueante)
 - `docker-compose down` para parar os containers do Docker
 - `mvn clean package` para realizar o build (compilar e empacotar) o projeto
 
