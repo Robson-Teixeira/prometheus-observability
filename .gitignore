@@ -25,3 +25,7 @@ replay_pid*
 
 # IntelliJ IDEA project files
 .idea/
+
+# Others
+src/app/target/
+src/prometheus/prometheus_data/

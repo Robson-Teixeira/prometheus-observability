@@ -6,6 +6,7 @@
 - [Maven](https://maven.apache.org/install.html)
 - [Java](https://www.oracle.com/java/technologies/downloads/)
 - [Micrometer](https://micrometer.io/)
+- [Actuator](https://docs.spring.io/spring-boot/reference/actuator/enabling.html)
 - IDE ([IntelliJ](https://www.jetbrains.com/pt-br/idea/#), [Eclipse](https://eclipseide.org/), etc.)
 
 ## Comandos
@@ -17,3 +18,8 @@
 - `docker-compose --version` para verificar a versão do Docker Compose instalada
 - `docker-compose up` para iniciar os containers do Docker (executar no diretório em que se encontra o arquivo `docker-compose.yml`)
 - `docker-compose down` para parar os containers do Docker
+- `mvn clean package` para realizar o build (compilar e empacotar) o projeto
+
+## Iniciando a aplicação
+- Add VM Options: -Dspring.profiles.active=prod
+- Add Enviroment Variables: application-prod.properties

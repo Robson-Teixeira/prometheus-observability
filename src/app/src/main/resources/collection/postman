@@ -1,0 +1,74 @@
+{
+    "info": {
+        "_postman_id": "9739ccdb-9be7-4e02-8bc4-521ccf1adee4",
+        "name": "prometheus-observability",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": "Course collection."
+    },
+    "item": [
+        {
+            "name": "Auth - Success",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:8080/auth",
+                    "path": [
+                        "auth"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                },
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n\"email\":\"moderador@email.com\", \n\"senha\":\"123456\"\n}"
+                }
+            }
+        },
+        {
+            "name": "Auth - Error",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:8080/auth",
+                    "path": [
+                        "auth"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                },
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n\"email\":\"moderador@email.com\", \n\"senha\":\"123457\"\n}"
+                }
+            }
+        }
+    ]
+}
