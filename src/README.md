@@ -11,6 +11,7 @@
 
 ## Documentação
 - [Prometheus](https://prometheus.io/docs/introduction/overview/)
+  - [Tipos de Métricas](https://prometheus.io/docs/specs/om/open_metrics_spec/#metric-types)
 
 ## Comandos
 
