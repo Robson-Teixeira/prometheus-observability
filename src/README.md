@@ -12,6 +12,8 @@
 ## Documentação
 - [Prometheus](https://prometheus.io/docs/introduction/overview/)
   - [Tipos de Métricas](https://prometheus.io/docs/specs/om/open_metrics_spec/#metric-types)
+  - [Querying basics](https://prometheus.io/docs/prometheus/latest/querying/basics/#:~:text=Querying%20basics,-Prometheus%20provides%20a)
+  - [Query functions](https://prometheus.io/docs/prometheus/latest/querying/functions/#:~:text=Query%20functions,-Some%20functions%20have)
 
 ## Comandos
 
